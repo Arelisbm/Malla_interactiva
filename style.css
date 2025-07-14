@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f2ff;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.semestres {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.semestre {
+    background: #f0e0ff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.semestre h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.materia {
+    background: #d7bfff;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.materia.activa {
+    background: #b380ff;
+    opacity: 1;
+}
+.materia.completada {
+    background: #96f096;
+    text-decoration: line-through;
+}
